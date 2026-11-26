@@ -1,5 +1,8 @@
 # mlkem1024_luau
 
+> [!CAUTION]
+> Use [rbx-cryptography](https://github.com/daily3014/rbx-cryptography). It's actively maintained, [much, much faster](https://xoifaii.github.io/rbx-crypto-docs/docs/benchmarks/) and likely more secure. This library was made as an experiment before it had native support for ML-DSA/ML-KEM.
+
 You can download the library by downloading the repository as a zip and taking the "library" folder.
 
 If ran on Roblox, CSPRNG is seeded with 64 `HttpService:GenerateGuid()` calls on Roblox.
